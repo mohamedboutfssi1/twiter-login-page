@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+   
+    height: 100vh;
+  background-color: aliceblue;
+   
+}
+.container input{
+    display: block;
+    
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.container .content{
+    box-shadow:  5px 5px 20px rgba(0,0,0,0.1) ;
+    padding:40px 25px;
+    box-shadow:  -5px -5px 10px white ;
+    
+    
+}
+.container .content .logo{
+   
+   padding-left: 25px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top: -15px;
+   text-align: center;
+}
+.container .content .logo img {
+   
+    border-radius: 50%;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+.container .content .logo h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: cadetblue;
+    
+}
+.container .content .login label{
+    font-family: cursive;
+    font-size: 10px;
+    margin: 5px 0;
+    display: block;
+
+}
+.container .content .login  input{
+    padding: 7px;
+    border-radius: 20px;
+    width: 250px;
+    box-shadow: inset 14px 14px 20px #cbced1, -14px -14px 20px white;
+   border: none;
+   
+  
+
+}
+.btn{
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 20px;
+    margin-top: 15px;
+    border: none;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    background-color: rgb(23, 160, 219);
+    
+}
+
+
+
